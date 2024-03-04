@@ -1,9 +1,51 @@
-body {
-  background-color: lightgreen;
+.topnav {
+  overflow: hidden;
+  background-color: darkslategrey;
+  display: block;
 }
 
-.responsive {
-  width: 100%;
-  max-width: 450px;
-  height: auto;
+.topnav a {
+  color: white;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+  display: inline-block;
+}
+.topnav a.hover {
+  background-color: lightsalmon;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: darkslategray;
+  color: lightsalmon;
+}
+body {
+  background-color: darkblue;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+div {
+  width: 80%;
+  background-color: darkolivegreen;
+  color: orange;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+table,
+th,
+td {
+  background-color: lightpink;
+  color: darkblue;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border: 1px solid;
+}
+
+.row {
+  display: flex;
+}
+.column {
+  flex: 20%;
+  padding: 5px;
 }
