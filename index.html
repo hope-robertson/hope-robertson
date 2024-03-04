@@ -4,45 +4,58 @@
     <title>Hope's Information Zone</title>
     <link rel="stylesheet" href="styles/main.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .topnav {
+        margin: 20px;
+        padding: 10px;
+      }
+      .intro {
+        background-color: darkolivegreen;
+        margin: 20px;
+        padding: 20px;
+      }
+      .playlist {
+        margin: 20px;
+        padding: 20px;
+      }
+
+      .row {
+        margin: 20px;
+        padding: 20px;
+      }
+      #greetings {
+        background-color: olive;
+      }
+      #kitty {
+        background-color: olive;
+        margin: 20px;
+        padding: 20px;
+      }
+    </style>
   </head>
   <body>
     <div class="topnav">
-      <a class="active" href="#home">Home</a>
+      <a class="active" href="https://hope-robertson.github.io/">Home</a>
       <a href="#techblog">Tech Blog</a>
       <a href="https://hope-robertson.github.io/blog/te-houtaewa-template.html"
-        >Personal Blog</a
+        >Core Blog</a
       >
     </div>
-    <div>
+
+    <div class="intro">
+      <h2 id="greetings">Greetings</h2>
       <p>
         Welcome to my blog. I have included some information to give my fellow
-        humans context about the internal world I inhabit, such as my current
-        guitar pedal setup, a current playlist of the songs I have been
-        listening to during the most recent sprint, and some photographs of my
-        garden and cats.
+        humans context about the internal world I inhabit, such as a current
+        playlist of the songs I have been listening to during the most recent
+        sprint, and some photographs of my garden and cats.
         <br />
       </p>
     </div>
-    <div>
-      <h3>My Current Guitar Pedal Setup</h3>
-      <p>
-        Below is a list from input to output of the guitar pedals I am currently
-        using. My guitar is a 1994 Squier Telecaster, and my amplifier is a
-        Fender Hot Rod Deville 212 Mk II.
-      </p>
-      <ol type="1">
-        <li>Boss Tuning Pedal</li>
-        <li>MXR Distortion +</li>
-        <li>MXR Distortion II</li>
-        <li>Boss Tremolo</li>
-        <li>Boss DD3 Delay</li>
-        <li>Boss DD20 Delay</li>
-      </ol>
-      <br />
-    </div>
-    <div>
-      <h3>My Current Study Playlist</h3>
 
+    <div class="playlist">
+      <h3>My Current Study Playlist</h3>
+      <p>Playlist for the week ending 03/03/2024</p>
       <table>
         <tr>
           <th>Song Title</th>
@@ -58,11 +71,6 @@
           <td>Yuri-G</td>
           <td>PJ Harvey</td>
           <td>4 Track Demos</td>
-        </tr>
-        <tr>
-          <td>Training Season</td>
-          <td>Dua Lipa</td>
-          <td>Training Season</td>
         </tr>
         <tr>
           <td>Teenager</td>
@@ -123,7 +131,7 @@
       </table>
       <br />
     </div>
-    <div><h2>Cat and Garden Show</h2></div>
+    <h2 id="kitty">Cat and Garden Show</h2>
     <div class="row">
       <div class="column">
         <img
