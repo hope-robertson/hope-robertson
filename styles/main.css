@@ -1,11 +1,11 @@
 .topnav {
   overflow: hidden;
-  background-color: darkslategrey;
+  background-color: lightsalmon;
   display: block;
 }
 
 .topnav a {
-  color: white;
+  color: darkolivegreen;
   text-align: right;
   padding: 14px 16px;
   text-decoration: none;
@@ -22,6 +22,13 @@
   background-color: darkslategray;
   color: lightsalmon;
 }
+
+.intro {
+  text-align: center;
+  margin: auto;
+  width: 80%;
+}
+
 body {
   background-color: darkblue;
   color: white;
@@ -40,6 +47,11 @@ td {
   color: darkblue;
   font-family: Georgia, 'Times New Roman', Times, serif;
   border: 1px solid;
+}
+
+#kitty {
+  width: 80%;
+  color: lightsalmon;
 }
 
 .row {
