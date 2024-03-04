@@ -1,3 +1,7 @@
+body {
+  background-color: lightgreen;
+}
+
 .responsive {
   width: 100%;
   max-width: 450px;
