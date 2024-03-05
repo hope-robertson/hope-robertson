@@ -2,14 +2,39 @@
 <html>
   <head>
     <title>Hope's Tech Blog</title>
+    <link
+      rel="stylesheet"
+      href="/home/hope/devacademy/hope-robertson-blog-io/styles/main.css"
+    />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <style></style>
+    <style>
+      #sprint2question {
+        text-align: center;
+        margin: auto;
+        width: 80%;
+        background-color: lightsalmon;
+        color: darkblue;
+      }
+      .paragraph {
+        background-color: black;
+        color: lightsalmon;
+        margin: auto;
+        text-align: left;
+        width: 60%;
+      }
+      .research {
+        background-color: darkblue;
+        color: lightsalmon;
+        margin: auto;
+      }
+    </style>
   </head>
-  <body>
+  <body class="research">
     <h2 id="sprint2question">
       What are the best practices associated with using classes vs ids?
     </h2>
-    <p class="paragraph">
+    <p class="paragraph" id="paragraph1">
       Classes and ids are used to define or change the layout, appearance and
       design of specific elements coded in HTML. A class is best used to define
       style where it may be applied to multiple elements on the page. An ID is
@@ -20,43 +45,57 @@
       class and gives them the same styling. The styling is defined at the top
       of the code within the style block, and the classes are defined further
       down within the elements.
-
+    </p>
+    <div>
       <img
         src="https://live.staticflickr.com/65535/53568105751_3461e3d658.jpg"
         alt="snippet of code showing class example"
+        class="center"
       />
+    </div>
 
+    <p class="paragraph" id="paragraph2">
       You can have both class and id within the same element, here is an example
       where each list item has both an ID (element1 etc) and class (item):
-
+    </p>
+    <div>
       <img
-        src="https://www.shecodes.io/assets/separators/separator--left-rounded-acdcd3213ef448e4dbfde458ffee57070c35d04435b2c6bceeb04a450df1fa53.png"
+        src="https://live.staticflickr.com/65535/53567329112_019dc866f1_w.jpg"
         alt="example of code with both class and id"
+        class="center"
       />
-
+    </div>
+    <p class="paragraph" id="paragraph3">
       Here is an example of id definition on its own in html, the styling
       changes again are defined within the style block towards the top:
+    </p>
 
+    <div>
       <img
         src="https://live.staticflickr.com/65535/53568458324_4c8d2a53ab_w.jpg"
         alt="example of id"
+        class="center"
       />
-
+    </div>
+    <p class="paragraph" id="paragraph4">
       Styling changes can also be defined within the CSS page, the syntax for
       class is using a fullstop and a hashtag for id. Below is an example of
       styling changes for a class named 'intro' in CSS:
-
+    </p>
+    <div>
       <img
         src="https://live.staticflickr.com/65535/53568338308_02ddf75686_n.jpg"
         alt="example of class styling in css"
+        class="center"
       />
-
-      And an example of an id in CSS:
-
+    </div>
+    <p class="paragraph" id="paragraph4">And an example of an id in CSS:</p>
+    <div>
       <img
         src="https://live.staticflickr.com/65535/53567294307_8103a0908d_m.jpg"
         alt="example of id in css"
+        class="center"
       />
-    </p>
+    </div>
   </body>
 </html>
