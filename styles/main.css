@@ -10,8 +10,31 @@
     width: 100%;
     text-align: left;
   }
+
+  .body {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
+@media screen and (max-width: 800px) {
+  .topnav a {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .body {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .topnav a {
+    display: none;
+    flex-wrap: none;
+  }
+}
 .topnav a {
   color: darkolivegreen;
   text-align: right;
