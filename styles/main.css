@@ -8,10 +8,10 @@ body {
   background-color: darkblue;
 }
 
-@media screen and (max-width: 300px) {
-  .topnav a {
-    float: none;
-    width: 100%;
+@media screen and (max-width: 400px) {
+  .topnav {
+    display: flex;
+    flex-wrap: wrap;
     text-align: left;
   }
 
