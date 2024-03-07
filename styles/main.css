@@ -15,6 +15,16 @@
     display: flex;
     flex-wrap: wrap;
   }
+
+  .column {
+    float: left;
+    width: 100%;
+  }
+
+  .playlist {
+    float: left;
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -27,14 +37,24 @@
     display: flex;
     flex-wrap: wrap;
   }
-}
 
+  .column {
+    float: left;
+    width: 100%;
+  }
+
+  .playlist {
+    float: left;
+    width: 100%;
+  }
+}
 @media screen and (min-width: 800px) {
   .topnav a {
     display: none;
     flex-wrap: none;
   }
 }
+
 .topnav a {
   color: darkolivegreen;
   text-align: right;
