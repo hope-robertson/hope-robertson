@@ -25,8 +25,12 @@ body {
   }
 
   .playlist {
-    float: left;
-    width: 100%;
+    th {
+      display: none;
+    }
+    td {
+      display: block;
+    }
   }
 }
 
@@ -87,11 +91,6 @@ body {
   background-color: black;
   margin: 20px;
   padding: 10px;
-}
-
-.center {
-  display: flex;
-  justify-content: center;
 }
 
 #greetings {
