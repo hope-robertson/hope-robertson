@@ -39,13 +39,13 @@
   }
 
   .column {
-    float: left;
-    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .playlist {
-    float: left;
-    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
   }
 }
 @media screen and (min-width: 800px) {
@@ -78,12 +78,6 @@
   text-align: center;
   margin: auto;
   width: 80%;
-}
-
-body {
-  background-color: darkblue;
-  color: lightsalmon;
-  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .paragraph {
