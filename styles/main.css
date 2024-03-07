@@ -4,6 +4,11 @@
   display: block;
 }
 
+.body {
+  background-color: darkblue;
+  display: flex;
+}
+
 @media screen and (max-width: 300px) {
   .topnav a {
     float: none;
