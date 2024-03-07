@@ -21,6 +21,10 @@
     width: 100%;
   }
 
+  .row {
+    flex-direction: column;
+  }
+
   .playlist {
     float: left;
     width: 100%;
