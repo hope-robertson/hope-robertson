@@ -8,7 +8,7 @@ body {
   background-color: darkblue;
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 400px) {
   .topnav a {
     float: none;
     width: 100%;
@@ -118,6 +118,8 @@ td {
 
 .row {
   display: flex;
+  padding: 10px;
+  margin: 20px;
 }
 .column {
   flex: 20%;
