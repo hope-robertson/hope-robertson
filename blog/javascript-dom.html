@@ -71,5 +71,30 @@
       the loop would be -- if cheese does not exist > then go get more cheese >
       else starve --
     </p>
+  <h1 class="techblogquestion">
+    The DOM
+  </h1>
+  <p class="paragraphtech3">
+    DOM is an acronym for Document Object Model. It is a representation, in objects, of the entire HTML document. It is much like a family tree, but instead of family members, we are referring to 'nodes'. <br>
+    Here is a chart showing an example of the DOM. <br>
+    <div class="center">
+      <img
+        src="https://live.staticflickr.com/65535/53585872137_3dc6743197_o.jpg"
+        alt="chart showing flow of the DOM"
+        class="center"
+      />
+    </div>
+    <br>
+
+    An example of interacting with the DOM would be when we access HTML elements using their tag name, class name or id with the querySelector or querySelectorAll method. Below is an example of code showing how to select the first element with the class 'cheese-fridge':
+
+    // let cheeseFridge = document.querySelector(".cheese-fridge") //
+    
+    Here is an example of how to access 'child' elements within the selected element
+    
+    // let cheeseType = cheeseFridge.querySelector(".cheese-type");
+    cheeseType.textContent = "Current Cheese Type";
+  
+  </p>
   </body>
 </html>
