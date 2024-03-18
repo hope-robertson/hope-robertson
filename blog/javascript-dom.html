@@ -39,9 +39,9 @@
     <!--figure out a way to make techblogquestion a consistent style across
     all tech blogs -->
 
-    <h1 class="techblogquestion">
+    <h2 class="techblogquestion">
       The Relationship Between HTML, CSS and Javascript
-    </h1>
+    </h2>
     <p class="paragraphtech3">
       An analogy I came up with last sprint was HTML being like a band entering
       a recording studio, with their song structures already decided, and CSS
@@ -51,9 +51,9 @@
       which contains libraries and tools to enhance/change sounds and methods to
       pull all of the elements together to provide a finished product.
     </p>
-    <h1 class="techblogquestion">
+    <h2 class="techblogquestion">
       An Example Process of Control Flow and Loops
-    </h1>
+    </h2>
     <p class="paragraphtech3">
       you take a shower in the morning, changing your state to clean. During the
       time in which you are not stinky, you go out into the world. the following
@@ -71,30 +71,80 @@
       the loop would be -- if cheese does not exist > then go get more cheese >
       else starve --
     </p>
-  <h1 class="techblogquestion">
-    The DOM
-  </h1>
-  <p class="paragraphtech3">
-    DOM is an acronym for Document Object Model. It is a representation, in objects, of the entire HTML document. It is much like a family tree, but instead of family members, we are referring to 'nodes'. <br>
-    Here is a chart showing an example of the DOM. <br>
-    <div class="center">
+    <h2 class="techblogquestion">The DOM</h2>
+    <p class="paragraphtech3">
+      DOM is an acronym for Document Object Model.
+      <br />
+      It is a representation, in objects, of the entire HTML document. It is
+      much like a family tree, but instead of family members, we are referring
+      to 'nodes'. <br />
+      Here is a chart showing an example of the DOM. <br />
+    </p>
+    <p class="centertech3">
       <img
         src="https://live.staticflickr.com/65535/53585872137_3dc6743197_o.jpg"
         alt="chart showing flow of the DOM"
-        class="center"
+        class="centertech3"
       />
-    </div>
-    <br>
+    </p>
+    <br />
+    <p class="paragraphtech3">
+      An example of interacting with the DOM would be when we access HTML
+      elements using their tag name, class name or id with the querySelector or
+      querySelectorAll method. <br />
+      Below is an example of code showing how to select the first element with
+      the class 'cheese-fridge': <br />
 
-    An example of interacting with the DOM would be when we access HTML elements using their tag name, class name or id with the querySelector or querySelectorAll method. Below is an example of code showing how to select the first element with the class 'cheese-fridge':
+      let cheeseFridge = document.querySelector(".cheese-fridge") <br />
+      <br />
+      Here is an example of how to access 'child' elements within the selected
+      element: <br />
+      <br />
+      let cheeseType = cheeseFridge.querySelector(".cheese-type"); <br />
+      cheeseType.textContent = "Current Cheese Type"; <br />
+    </p>
+    <h2 class="techblogquestion">Accessing Data From Objects vs Arrays</h2>
+    <p class="paragraphtech3">
+      An object is defined as a collection of key-value pairs, which are data
+      structures used to represent a piece of information. The key is an
+      identifier for the data, which tells you what it represents. The value is
+      the data associated with the key.<br /><br />
 
-    // let cheeseFridge = document.querySelector(".cheese-fridge") //
-    
-    Here is an example of how to access 'child' elements within the selected element
-    
-    // let cheeseType = cheeseFridge.querySelector(".cheese-type");
-    cheeseType.textContent = "Current Cheese Type";
-  
-  </p>
+      Objects are best used when your data represents one thing with named
+      properties and when you will be manipulating individual properties of the
+      data rather than performing manipulations over the data as a whole entity,
+      which would be best suited to an array. <br />
+      <br />
+      Another way to tell if it is appropriate to use an array is if the order
+      of the data matters or if it is a group of things of the same type. <br />
+      <br />
+      The way that the data needs to be accessed (numerical index vs unique
+      keys) is informed by considering the aforementioned situations, knowing
+      that objects are unordered and arrays are ordered.
+    </p>
+    <h2 class="techblogquestion">Functions and Why They Are Useful</h2>
+    <p class="paragraphtech3">
+      A function is a reusable block of code created to perform a particular
+      task, such as returning a string as shown in the code example below:
+      <br />
+      <br />
+
+      // function greet() { <br />
+      return 'Hey there!' }<br />
+      let salutation = greet() //
+      <br />
+      <br />
+
+      Functions are helpful as they let you break down complex tasks into more
+      manageable steps, because they are like smaller programs within your main
+      program. A function can be 'called', which means giving the function an
+      instruction to run its defined set of instructions. In our example above,
+      the last line of code is calling the function.
+      <br />
+      <br />
+      Once a function has been defined it can be called multiple times with
+      different inputs inserted if needed. It is easier to debug and test code
+      when functions are used, as each one undertakes a specific task.
+    </p>
   </body>
 </html>
