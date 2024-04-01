@@ -9,14 +9,6 @@
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.dombody {
-  background-color: rgb(55, 66, 61);
-  color: rgb(230, 159, 179);
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  padding: 20px;
-  margin: 20px;
-}
-
 .body {
   background-color: rgb(55, 66, 61);
   color: rgb(230, 159, 179);
@@ -34,16 +26,6 @@
 .houtaewa {
   background-color: rgb(55, 66, 61);
   color: rgb(230, 159, 179);
-}
-
-.htmlcss {
-  background-color: rgb(55, 66, 61);
-  color: rgb(230, 159, 179);
-  padding: 20px;
-  margin: 20px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  display: block;
-  width: 80%;
 }
 
 .neuro {
@@ -182,7 +164,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 100%;
 }
 
 #greetings {
