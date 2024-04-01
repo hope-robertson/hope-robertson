@@ -200,8 +200,14 @@ td {
     text-align: left; /* Left-align navbar links */
   }
 
-  .dropdown {
+  .dropdown-content {
+    position: relative;
+  }
+
+  .dropdown,
+  .dropbtn {
     width: 100%; /* Make dropdown menu full width */
+    display: block;
   }
 
   /* Add more styles for smaller screens as needed */
@@ -209,6 +215,24 @@ td {
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   /* Styles for screens between 768px and 1024px */
+  .topnav {
+    flex-wrap: wrap; /* Wrap navbar items to multiple lines */
+    justify-content: center; /* Center navbar items horizontally */
+  }
+
+  .topnav a {
+    text-align: left; /* Left-align navbar links */
+  }
+
+  .dropdown-content {
+    position: relative;
+  }
+
+  .dropdown,
+  .dropbtn {
+    width: 100%; /* Make dropdown menu full width */
+    display: block;
+  }
   /* Adjust styles for medium-sized screens here */
 }
 
