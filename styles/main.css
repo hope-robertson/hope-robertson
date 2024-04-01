@@ -33,6 +33,7 @@
   color: rgb(230, 159, 179);
   padding: 20px;
   margin: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .topnav a {
@@ -124,16 +125,6 @@
   margin: 20px;
   padding: 20px;
   width: 80%;
-}
-
-.tapawha {
-  background-color: rgb(28, 2, 33);
-  color: rgb(230, 159, 179);
-  opacity: 0.96;
-  margin: 20px;
-  padding: 20px;
-  width: 80%;
-  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .paragraph {
