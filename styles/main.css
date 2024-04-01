@@ -45,10 +45,6 @@
   font-family: Georgia, 'Times New Roman', Times, serif;
   display: flex;
 }
-.topnav a.hover {
-  background-color: rgb(55, 66, 61);
-  color: rgb(230, 159, 179);
-}
 
 .topnav a.active {
   background-color: rgb(230, 159, 179);
@@ -76,6 +72,10 @@
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.dropbtn:active .dropdown-content {
+  display: block;
+}
+
 .dropdown-content {
   display: none; /* initially hide the dropdown content*/
   position: absolute; /* position the dropdown content below the button */
@@ -95,6 +95,14 @@
   opacity: 0.96;
 }
 
+.topnav a.hover {
+  background-color: rgb(55, 66, 61);
+  color: rgb(230, 159, 179);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block; /* show the dropdown content when hovering cursor */
+}
 .dropdown-content a:hover {
   background-color: rgb(23, 22, 20);
   color: rgb(183, 173, 207);
@@ -102,9 +110,6 @@
 
 /* add more functionality to dropdown ie change colour when hovering over link*/
 
-.dropdown:hover .dropdown-content {
-  display: block; /* show the dropdown content when hovering cursor */
-}
 .intro {
   text-align: center;
   background-color: rgb(55, 66, 61);
