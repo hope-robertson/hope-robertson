@@ -9,6 +9,14 @@
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.dombody {
+  background-color: rgb(55, 66, 61);
+  color: rgb(230, 159, 179);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 20px;
+  margin: 20px;
+}
+
 .body {
   background-color: rgb(55, 66, 61);
   color: rgb(230, 159, 179);
