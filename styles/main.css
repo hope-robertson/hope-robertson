@@ -179,10 +179,10 @@
 }
 
 .centertech3 {
-  display: block;
+  display: flex;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  width: 70%;
 }
 
 #greetings {
