@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Hope's Tech Blog</title>
+    
     <link
       rel="stylesheet"
       href="https://hope-robertson.github.io/styles/main.css"
@@ -9,7 +9,14 @@
     />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <style>      body {
+      background-image: url(https://live.staticflickr.com/65535/53601679328_90a3726f5b_h.jpg);
+      background-repeat: no-repeat; /* prevent image from tiling */
+      background-position: center;
+      background-size: cover; /* resize image to cover body element */
+    }
+    </style>
+<title>HTML & CSS</title>
   </head>
 
   <body class="research">
@@ -56,10 +63,11 @@
       <a href="https://hope-robertson.github.io/blog/learning-plan.html"
         >Learning Plan</a
       >
-    <h2 id="sprint2question">
+      
+    <h2> 
       What are the best practices associated with using classes vs ids?
     </h2>
-    <p class="paragraph" id="paragraph1">
+    <p>
       Classes and ids are used to define or change the layout, appearance and
       design of specific elements coded in HTML. A class is best used to define
       style where it may be applied to multiple elements on the page. An ID is
@@ -79,7 +87,7 @@
       />
     </div>
 
-    <p class="paragraph" id="paragraph2">
+    <p>
       You can have both class and id within the same element, here is an example
       where each list item has both an ID (element1 etc) and class (item):
     </p>
@@ -90,7 +98,7 @@
         class="center"
       />
     </div>
-    <p class="paragraph" id="paragraph3">
+    <p>
       Here is an example of id definition on its own in html, the styling
       changes again are defined within the style block towards the top:
     </p>
@@ -102,7 +110,7 @@
         class="center"
       />
     </div>
-    <p class="paragraph" id="paragraph4">
+    <p>
       Styling changes can also be defined within the CSS page, the syntax for
       class is using a fullstop and a hashtag for id. Below is an example of
       styling changes for a class named 'intro' in CSS:
@@ -114,7 +122,7 @@
         class="center"
       />
     </div>
-    <p class="paragraph" id="paragraph4">And an example of an id in CSS:</p>
+    <p>And an example of an id in CSS:</p>
     <div class="center">
       <img
         src="https://live.staticflickr.com/65535/53567294307_8103a0908d_m.jpg"
