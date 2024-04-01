@@ -1,143 +1,119 @@
 .topnav {
   overflow: hidden;
-  background-color: lightsalmon;
+  background-color: rgb(58, 38, 24);
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  width: 95%;
+  margin: 20px;
+  padding: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-body {
-  background-color: darkblue;
-  color: lightsalmon;
+.body {
+  background-color: rgb(55, 66, 61);
+  color: rgb(230, 159, 179);
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .houtaewa {
-  color: lightsalmon;
-}
-
-@media screen and (max-width: 400px) {
-  .topnav {
-    display: flex;
-    flex-wrap: wrap;
-    text-align: left;
-    width: 100%;
-  }
-
-  .body {
-    float: left;
-    width: 100%;
-  }
-
-  .row {
-    flex-direction: column;
-  }
-
-  .playlist {
-    th {
-      display: none;
-    }
-    td {
-      display: block;
-    }
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .topnav a {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .body {
-    float: left;
-    width: 100%;
-  }
-
-  .column {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .playlist {
-    display: flex;
-    flex-wrap: wrap;
-  }
-}
-@media screen and (min-width: 800px) {
-  .topnav a {
-    display: none;
-    flex-wrap: none;
-  }
+  background-color: rgb(55, 66, 61);
+  color: rgb(230, 159, 179);
 }
 
 .topnav a {
-  color: darkolivegreen;
+  color: rgb(230, 159, 179);
   text-align: center;
   padding: 5px 8px;
   text-decoration: none;
   font-size: 17px;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  display: inline-block;
+  display: flex;
 }
 .topnav a.hover {
-  background-color: darkslategrey;
-  color: lightsalmon;
+  background-color: rgb(55, 66, 61);
+  color: rgb(230, 159, 179);
 }
 
 .topnav a.active {
-  background-color: darkslategray;
-  color: lightsalmon;
+  background-color: rgb(230, 159, 179);
+  color: rgb(55, 66, 61);
 }
 
 .dropdown {
-  display: inline-block;
-  width: 10%;
+  display: flex;
+  width: 30%;
+  justify-content: flex-start;
 }
 
 .dropbtn {
-  color: darkolivegreen;
+  color: rgb(230, 159, 179);
+  background-color: rgb(55, 66, 61);
   text-align: right;
   padding: 5px 8px;
   text-decoration: none;
   font-size: 17px;
-  display: inline-block;
+  display: flex; /* use flexbox for layout */
+  justify-content: flex-start; /* i think this will align to the left*/
   border: none;
   cursor: pointer;
-  width: 10%;
+  width: 60%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .dropdown-content {
   display: none; /* initially hide the dropdown content*/
   position: absolute; /* position the dropdown content below the button */
-  background-color: lightsalmon;
+  background-color: rgb(183, 173, 207);
+  color: rgb(23, 22, 20);
   min-width: 80px; /* min width of the dropdown content */
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); /* add shadow effect*/
   z-index: 1; /* ensure dropdown content is displayed above other elements*/
 }
 
 .dropdown-content a {
-  color: black; /* text color for dropdown links */
+  color: rgb(23, 22, 20); /* text color for dropdown links */
+  background-color: rgb(183, 173, 207);
   padding: 5px 8px; /* padding for dropdown links */
   text-decoration: none; /* remove underline decoration from links */
   display: block; /* display dropdown links as block elements */
+  opacity: 0.96;
 }
+
+.dropdown-content a:hover {
+  background-color: rgb(23, 22, 20);
+  color: rgb(183, 173, 207);
+}
+
+/* add more functionality to dropdown ie change colour when hovering over link*/
 
 .dropdown:hover .dropdown-content {
   display: block; /* show the dropdown content when hovering cursor */
 }
 .intro {
   text-align: center;
-  margin: auto;
+  background-color: rgb(55, 66, 61);
+  color: rgb(230, 159, 179);
+  margin: 20px;
+  padding: 20px;
+  width: 80%;
+}
+
+.playlist {
+  background-color: rgb(28, 2, 33);
+  opacity: 0.96;
+  margin: 20px;
+  padding: 20px;
   width: 80%;
 }
 
 .paragraph {
-  background-color: black;
+  background-color: rgb(23, 22, 20);
   margin: 20px;
   padding: 10px;
 }
 
 .paragraphtech3 {
-  background-color: black;
+  background-color: rgb(23, 22, 20);
   margin: 20px;
   padding: 10px;
 }
@@ -159,32 +135,63 @@ body {
 #greetings {
   font-weight: 200;
 }
-div {
-  width: 80%;
-  background-color: darkolivegreen;
-  color: orange;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
+
 table,
 th,
 td {
-  background-color: lightpink;
-  color: darkblue;
+  background-color: rgb(230, 159, 179);
+  color: rgb(28, 2, 33);
   font-family: Georgia, 'Times New Roman', Times, serif;
   border: 1px solid;
 }
 
-#kitty {
+.kitty {
   width: 80%;
-  color: lightsalmon;
+
+  color: rgb(230, 159, 179);
+  background-color: rgb(76, 69, 87);
+  margin: 20px;
+  padding: 20px;
+}
+
+#greetings {
+  background-color: rgb(76, 69, 87);
+  color: rgb(230, 159, 179);
 }
 
 .row {
   display: flex;
-  padding: 10px;
-  margin: 20px;
+  justify-content: space-evenly;
 }
 .column {
   flex: 20%;
-  padding: 5px;
+  padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  /* Styles for screens smaller than 768px */
+  .topnav {
+    flex-wrap: wrap; /* Wrap navbar items to multiple lines */
+    justify-content: center; /* Center navbar items horizontally */
+  }
+
+  .topnav a {
+    text-align: left; /* Left-align navbar links */
+  }
+
+  .dropdown {
+    width: 100%; /* Make dropdown menu full width */
+  }
+
+  /* Add more styles for smaller screens as needed */
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Styles for screens between 768px and 1024px */
+  /* Adjust styles for medium-sized screens here */
+}
+
+@media screen and (min-width: 1024px) {
+  /* Styles for screens wider than 1024px */
+  /* Adjust styles for large screens here */
 }
